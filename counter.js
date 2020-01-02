@@ -1,6 +1,6 @@
     // counter_ani(클래스명)
     // first-update: 2020-01-02
-    // by CSSLICK
+    // Author CSSLICK
 
     function counter_ani(el) {
       var count_el = document.querySelectorAll(el);
@@ -17,7 +17,6 @@
 
       function counter(i){
         timer[i] = setInterval(function () {
-          // console.log(count_el[i].getAttribute('data-num'));
           if (c[i] < count_el[i].getAttribute('data-num')) {
             c[i]++;
           } else { clearInterval(timer[i]); }
