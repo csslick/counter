@@ -4,6 +4,9 @@ first-update: 2020-01-02
 by CSSLICK
 ```
 
+## Demo 
+https://csslick.github.io/counter/
+
 ## Usage 
 ```
   counter_ani(class name)
@@ -23,22 +26,10 @@ by CSSLICK
     </section>
         <!-- 카운터 함수(문서 아래에 추가) -->
     <script src="counter.js"></script>
-
+    
     <script>
-      // 요소 위치
-      var el = document.querySelector("#count");
-      var el_y = el.offsetTop; 
-
-      // 페이지 이동 판정
-      window.addEventListener("scroll", function() {
-        console.log(document.documentElement.scrollTop);
-        if (
-          document.body.scrollTop >= el_y ||
-          document.documentElement.scrollTop >= el_y
-        ) {
-          counter_ani(".count");
-        }
-      });
+      counter_ani(".count");
     </script>
+
 ```
 
