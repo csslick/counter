@@ -1,4 +1,7 @@
     // counter_ani(클래스명)
+    // first-update: 2020-01-0
+    // by CSSLICK
+
     function counter_ani(el) {
       var el = '.count';
       var count_el = document.querySelectorAll(el);
