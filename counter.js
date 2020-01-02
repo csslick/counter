@@ -1,0 +1,28 @@
+    // counter_ani(클래스명)
+    function counter_ani(el) {
+      var el = '.count';
+      var count_el = document.querySelectorAll(el);
+      var count = 0;
+      var c = [];
+      var timer = [];
+      for(var i = 0; i < count_el.length; i++) {
+        c.push(0);
+        timer.push('');
+      }
+      console.log(c[0], timer)
+
+      function counter(i){
+        timer[i] = setInterval(function () {
+          // console.log(count_el[i].getAttribute('data-num'));
+          if (c[i] < count_el[i].getAttribute('data-num')) {
+            c[i]++;
+          } else { clearInterval(timer[i]); }
+          count_el[i].innerHTML = c[i];
+        }, 25);
+      }
+
+      for (let _i = 0; _i < count_el.length; _i++) {
+        counter(_i)
+      }
+    } //  end fun
+
