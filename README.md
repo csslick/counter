@@ -1,6 +1,6 @@
 # counter.js
 ```
-first-update: 2020-01-02
+first update: 2020-01-02
 by CSSLICK
 ```
 
