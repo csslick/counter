@@ -1,7 +1,7 @@
 # counter.js
 ```
 first update: 2020-01-02
-by CSSLICK
+Author CSSLICK
 ```
 
 ## Demo 
