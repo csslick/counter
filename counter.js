@@ -1,13 +1,14 @@
     // counter_ani(클래스명)
-    // first-update: 2020-01-0
+    // first-update: 2020-01-02
     // by CSSLICK
 
     function counter_ani(el) {
-      var el = '.count';
       var count_el = document.querySelectorAll(el);
       var count = 0;
       var c = [];
       var timer = [];
+      var duration = 25;
+
       for(var i = 0; i < count_el.length; i++) {
         c.push(0);
         timer.push('');
@@ -21,10 +22,10 @@
             c[i]++;
           } else { clearInterval(timer[i]); }
           count_el[i].innerHTML = c[i];
-        }, 25);
+        }, duration);
       }
 
-      for (let _i = 0; _i < count_el.length; _i++) {
+      for (var _i = 0; _i < count_el.length; _i++) {
         counter(_i)
       }
     } //  end fun
