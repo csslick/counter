@@ -25,7 +25,7 @@ https://csslick.github.io/counter/
       
     </section>
     
-    <!-- 카운터 함수(문서 아래에 추가) -->
+    <!-- 문서 아래에 추가 -->
     <script src="counter.js"></script>
     
     <script>
