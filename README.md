@@ -23,9 +23,9 @@ https://csslick.github.io/counter/
       <div class="text-box">
         <h1>Counter</h1>
         <!-- data-num에 숫자값 설정 -->
-        <!-- data-speed 속도 설정(1 ~ 5, 높으면 느려짐) -->
-        <p class="count" data-num="10" data-speed="5">0</p>
-        <p class="count" data-num="70" data-speed="3">0</p>
+        <!-- data-speed 속도 설정(1 ~ 10, 높으면 느려짐) -->
+        <p class="count" data-num="10" data-speed="10">0</p>
+        <p class="count" data-num="70" data-speed="2">0</p>
         <p class="count" data-num="200" data-speed="1">0</p>
       </div>
     </section>
