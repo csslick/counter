@@ -5,7 +5,6 @@ data-speed 속도 설정 옵션 추가
 함수 사용법 단순화
 ```
 ```
-last update: 2022-08-16
 Author: CSSLICK
 ```
 
