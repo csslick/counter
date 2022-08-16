@@ -1,7 +1,12 @@
 # counter.js
+## Update
 ```
-first update: 2020-01-02
-Author CSSLICK
+data-speed 속도 설정 옵션 추가
+함수 사용법 단순화
+```
+```
+last update: 2022-08-16
+Author: CSSLICK
 ```
 
 ## Demo 
@@ -18,18 +23,22 @@ https://csslick.github.io/counter/
       <div class="text-box">
         <h1>Counter</h1>
         <!-- data-num에 숫자값 설정 -->
-        <p class="count" data-num="100">0</p>
-        <p class="count" data-num="150">0</p>
-        <p class="count" data-num="200">0</p>
+        <!-- data-speed 속도 설정(1 ~ 5, 높으면 느려짐) -->
+        <p class="count" data-num="10" data-speed="5">0</p>
+        <p class="count" data-num="70" data-speed="3">0</p>
+        <p class="count" data-num="200" data-speed="1">0</p>
       </div>
-      
     </section>
     
     <!-- 문서 아래에 추가 -->
     <script src="counter.js"></script>
     
     <script>
-      counter_ani(".count");
+      // 설정 옵션: el - 요소명, offset - 카운트 시작 위치 조절
+      playCount({
+        el: '.count',
+        offset: 300
+      })
     </script>
 
 ```
